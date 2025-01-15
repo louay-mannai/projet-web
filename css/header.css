@@ -59,9 +59,7 @@ header.flex {
     border-radius: 50%;
   }
 
-  /* ======================
-    Left Section (Logo)
-==========================*/
+  
   & .fa-bag-shopping {
     font-size: 2rem;
   }
@@ -85,9 +83,7 @@ header.flex {
   }
 }
 
-/* ==============================
-When dcroll down on the home page 
-=================================*/
+
 header.scroll-down {
   position: fixed;
   right: 0;
