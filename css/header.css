@@ -107,16 +107,4 @@ header.scroll-down {
     font-size: 1.66rem;
   }
 }
-/* Ajouter un conteneur pour le drapeau */
-header.flex .palestine-flag {
-  display: flex;
-  align-items: center;
-  margin-right: 1rem;
-}
 
-header.flex .palestine-flag img {
-  width: 30px; /* Ajustez la taille selon vos besoins */
-  height: auto;
-  border-radius: 4px; /* Ajoutez un arrondi si nécessaire */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ajoutez un effet d'ombre */
-}
