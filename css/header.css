@@ -106,5 +106,80 @@ header.scroll-down {
   & .logo .fa-bag-shopping {
     font-size: 1.66rem;
   }
+
+  /* Style de base pour le header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  animation: fadeIn 2s ease-in-out; /* Animation du header */
+}
+
+/* Animation pour l'apparition du header */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Style du titre */
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  animation: slideIn 1s ease-out; /* Animation du titre */
+}
+
+/* Animation pour le titre */
+@keyframes slideIn {
+  from {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+/* Style de la navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  position: relative;
+  display: inline-block;
+}
+
+/* Animation des liens au survol */
+nav ul li a:hover {
+  color: #ff6347; /* Changement de couleur au survol */
+  animation: linkHover 0.3s ease forwards;
+}
+
+@keyframes linkHover {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.2);
+  }
+}
+
 }
 

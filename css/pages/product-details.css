@@ -84,4 +84,90 @@ main.flex {
       margin-bottom: 1.3rem;
     }
   }
+
+
+.card {
+  width: 280px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 15px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #f4f4f4;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.content {
+  padding: 20px;
+}
+
+.title {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.card:hover .title {
+  color: #ff6347; /* Changer la couleur du titre au survol */
+}
+
+.description {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.add-to-cart {
+  display: flex;
+  align-items: center;
+  background-color: #ff6347;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #e55347;
+}
+
+.add-to-cart i {
+  margin-right: 8px;
+}
+
+
+
 }
