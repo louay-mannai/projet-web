@@ -13,8 +13,91 @@ footer{
     color: #ff7790;
     text-transform: capitalize;
   }
+  .residence {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    max-width: 400px;
+    font-family: Arial, sans-serif;
+}
 
+.residence h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.residence p {
+    font-size: 1em;
+    color: #555;
+}
+
+.residence p strong {
+    color: #333;
+}
  
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media p {
+  margin: 0;
+}
+
+.social-media a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
 
 
 
