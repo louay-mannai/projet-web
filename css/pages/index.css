@@ -1,6 +1,4 @@
-/* =======================
-    Background Image
-==========================*/
+
 div.top-img {
   position: relative;
   height: 100vh;
@@ -18,9 +16,6 @@ div.top-img {
 }
 
 
-/* =======================
-    Text on Image
-==========================*/
 
 section.content {
   font-size: 2rem;
@@ -67,9 +62,7 @@ section.content {
 
 
 
-/* ===============================
-    Main contents (products)
-==================================*/
+
 main h1.recommended {
   margin: 2.3rem 0 2rem 2%;
 }
